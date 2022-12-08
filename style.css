@@ -47,6 +47,11 @@ nav{
 
 }
 
+.top-menu ul li a{
+color: white;
+text-decoration: none;
+}
+
 .top-menu ul li:hover{
     color: rgba(241, 50, 50, 0.884);
     cursor: pointer;
