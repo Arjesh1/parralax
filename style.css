@@ -59,6 +59,13 @@ text-decoration: none;
     transform: scale(1.1);
 }
 
+.top-menu ul li a:hover{
+    color: rgba(241, 50, 50, 0.884);
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
 .logo{
     background: linear-gradient(rgb(116, 231, 116),rgb(121, 153, 214));
     font-weight: bolder;
