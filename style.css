@@ -1,0 +1,161 @@
+
+html{
+    /* scroll-behavior: smooth; */
+}
+body{
+    margin: 0;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+     
+    
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.712);
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    position: sticky;
+    top:0;
+
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-menu ul{
+    display: flex;
+    list-style: none;
+    line-height: 3rem;
+
+}
+
+.top-menu ul li{
+    margin-left: 1.5rem;
+    transition: color 1.5s;
+    transition: transform 1s;
+
+}
+
+.top-menu ul li:hover{
+    color: rgba(241, 50, 50, 0.884);
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.logo{
+    background: linear-gradient(rgb(116, 231, 116),rgb(121, 153, 214));
+    font-weight: bolder;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.logo:hover{
+    color: rgb(219, 38, 6);
+    cursor: pointer;
+    font-weight: bold;
+    background: linear-gradient(rgb(85, 199, 85),rgb(223, 150, 102));
+
+}
+
+/* hero section */
+
+.video{
+    height: 50vh;
+    background: grey;
+    position: relative;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.video > div{
+    position: absolute;
+    top: 8rem;
+    left: 15rem;
+    color: white;
+    width: 450px;
+    background: rgba(58, 38, 38, 0.185);
+    padding: 1rem;
+    border-radius: 10px;
+    /* border:solid 1px white; */
+    backdrop-filter: blur(20px);
+}
+
+
+
+.img1, .img2, .img3, .img4{
+    height: 70vh;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img1{
+    background: url(assets/a.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img2{
+    background: url(assets/b.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.img3{
+    background: url(assets/c.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img4{
+    background: url(assets/d.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+footer{
+    background: black;
+    padding: 3rem;
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.title{
+    background: rgba(0, 0, 0, 0.507);
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    opacity: 75%;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+
+}
